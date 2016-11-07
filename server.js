@@ -11,6 +11,6 @@ http.createServer(function(req,res){
     '<body>\n'+
     '<h1>hellow world!!</h1>\n'+
      '</body>\n'+
-    '</html>\n'+
+    '</html>\n';
     res.end(response_str);
 }).listen(process.env.PORT||1337);
