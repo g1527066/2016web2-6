@@ -9,7 +9,7 @@ http.createServer(function(req,res){
       '     <title>はじめてのmicrosoft azure</title>\n'+
       '    </head>\n'+
       '     <body>\n'+
-      '       <h1>hellow world!!</h1>\n'+
+      '       <h1>Hellow World!!</h1>\n'+
       '     </body>\n'+
       '</html>\n';
     res.end(response_str);
