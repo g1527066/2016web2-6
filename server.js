@@ -7,10 +7,10 @@ http.createServer(function(req,res){
       '   <head>\n'+
       '     <meta charset="UTF-8">\n'+
       '     <title>はじめてのmicrosoft azure</title>\n'+
-  '</head>\n'+
-    '<body>\n'+
-    '<h1>hellow world!!</h1>\n'+
-     '</body>\n'+
-    '</html>\n';
+      '    </head>\n'+
+      '     <body>\n'+
+      '       <h1>hellow world!!</h1>\n'+
+      '     </body>\n'+
+      '</html>\n';
     res.end(response_str);
 }).listen(process.env.PORT||1337);
