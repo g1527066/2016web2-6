@@ -4,9 +4,9 @@ http.createServer(function(req,res){
   var response_str=
       '<!DOCTYPE html>\n'+
       '<html>\n'+
-      '<head>\n'+
-      '<meta charset="UTF-8">\n'+
-      '<title>はじめてのmicrosoft azure</title>
+      '   <head>\n'+
+      '     <meta charset="UTF-8">\n'+
+      '     <title>はじめてのmicrosoft azure</title>\n'+
   '</head>\n'+
     '<body>\n'+
     '<h1>hellow world!!</h1>\n'+
